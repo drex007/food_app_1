@@ -1,0 +1,80 @@
+name: trofira
+description: A new Flutter project.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+dependencies:
+  cloudinary_public: ^0.11.0
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.4
+  flutter:
+    sdk: flutter
+  flutter_easyloading: ^3.0.3
+  flutter_icons: ^1.1.0
+  flutter_svg: ^1.0.3
+  get: ^4.6.1
+  get_storage: ^2.0.3
+  http: ^0.13.4
+  image_picker: ^0.8.4+9
+  internet_connection_checker: ^0.0.1+3
+  intl: ^0.17.0
+  introduction_screen: ^2.1.0
+  pin_code_fields: ^7.3.0
+  toggle_switch: ^1.4.0
+  modal_bottom_sheet: ^2.0.1
+  
+dev_dependencies:
+  equatable: ^2.0.3
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/Animations/onboarding/Get-Orders.svg
+    - assets/images/Animations/onboarding/Deliver-Earn.svg
+    - assets/images/Animations/onboarding/Boost-Sales.svg
+    - assets/images/Animations/background-gradient.png
+    - assets/images/Animations/Reg_success/Success.png
+    - assets/images/pictures/today-order.png
+    - assets/images/pictures/bacon-chicken.png
+    - assets/images/logo/trofira white 1.png
+    - assets/images/Animations/getting_started/chef.svg
+    - assets/images/Animations/getting_started/Driver.svg
+    - assets/images/profile/profile.png
+    - assets/images/profile/add-picture.png
+    - assets/images/profile/driver-profile-pic.png
+    - assets/images/profile/driver-profile-pic1.png
+    - assets/images/profile/driver-profile-pic2.png
+    - assets/images/profile/order_picture.png
+    - assets/images/logo/logo_red.png
+    - assets/images/icons/Location.png
+    - assets/images/icons/Message.png
+    - assets/images/icons/Call.png
+    - assets/images/icons/driver_profile/profile.png
+    - assets/images/icons/driver_profile/payments.png
+    - assets/images/icons/driver_profile/settings.png
+    - assets/images/icons/driver_profile/Reviews.png
+    - assets/images/icons/driver_profile/Help and Support.png
+    - assets/images/icons/driver_profile/logout.png
+    - assets/images/cuisines/spicy_fish_source.png
+    - assets/images/cuisines/spicy_fish_sauce2.png
+    - assets/images/cuisines/spicy_fish_sauce3.png
+    - assets/images/cuisines/vegetable_tomato_mix.png
+    - assets/images/pictures/e.png
+    - assets/images/pictures/v.png
+    - assets/images/pictures/c.png
+    - assets/images/pictures/v.png
+    - assets/images/profile/
+    - assets/images/icons/
+
+  fonts:
+    - family: ProximaNova
+      fonts:
+        - asset: assets/fonts/ProximaNova-Regular.ttf
+        - asset: assets/fonts/Proxima-Nova-Bold.ttf
